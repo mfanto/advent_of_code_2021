@@ -37,7 +37,7 @@ fn calculate_increases(lines: io::Lines<io::BufReader<File>>) {
 fn does_increase(amount: i32, last_line: Option<i32>) -> bool {
 
 	return match last_line {
-		Some(x) => if amount > x {true} else {false}
+		Some(x) => if amount > x {true} else {false},
 		_ => false
 	}
 }

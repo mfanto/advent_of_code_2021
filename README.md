@@ -6,9 +6,9 @@ Back in 2016 I learned the [F# language with the Advent of Code Challenge](https
 
 ## :calendar: Calendar
 
-1. [Advent of Code Day 1](./tree/main/day_01)
-1. [Advent of Code Day 2](./tree/main/day_02)
-1. [Advent of Code Day 3](./tree/main/day_03)
+1. [Advent of Code Day 1](https://github.com/mfanto/advent_of_code_2021/tree/main/day_01)
+1. [Advent of Code Day 2](https://github.com/mfanto/advent_of_code_2021/tree/main/day_02)
+1. [Advent of Code Day 3](https://github.com/mfanto/advent_of_code_2021/tree/main/day_03)
 
 ## :runner: Running
 

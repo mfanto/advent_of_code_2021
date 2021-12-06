@@ -4,9 +4,9 @@ use std::path::Path;
 
 /// Main function
 fn main() {
-	match read_lines("./directions.txt") {
-		Ok(lines)	=> run_ship(lines),
-		Err(e) 	=> eprintln!("There was an error: {}", e)
+	match read_lines("./input.txt") {
+		Ok(lines) => run_ship(lines),
+		Err(e) => eprintln!("There was an error: {}", e)
 	}
 }
 

@@ -8,8 +8,8 @@ const BINARY_WIDTH: usize = 12;
 /// Main function
 fn main() {
 	match read_lines("./input.txt") {
-		Ok(lines)	=> calculate_power(lines),
-		Err(e) 	=> eprintln!("There was an error: {}", e)
+		Ok(lines) => calculate_power(lines),
+		Err(e) => eprintln!("There was an error: {}", e)
 	}
 }
 

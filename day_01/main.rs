@@ -5,8 +5,8 @@ use std::path::Path;
 /// Main function
 fn main() {
 	match read_lines("./input.txt") {
-		Ok(lines)	=> calculate_increases(lines),
-		Err(e) 	=> eprintln!("There was an error: {}", e)
+		Ok(lines) => calculate_increases(lines),
+		Err(e) => eprintln!("There was an error: {}", e)
 	}
 }
 
